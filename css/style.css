@@ -5,7 +5,7 @@
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -32,7 +32,36 @@
     margin-bottom: 10px;
 }
 
+.third-box::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
 .footer{
     height: 50px;
     background-color: #8801fe;
+}
+
+.float{
+    float: left;
+    margin: 20px 0;
+}
+
+#box-1{
+    width: 25%;
+    height: calc(100% - 40px);
+    background-color: #abcfe7;
+}
+
+#box-2{
+    width: 50%;
+    height: calc(100% - 40px);
+    background-color: #abcfe7;
+}
+
+#box-3{
+    width: 25%;
+    height: calc(100% - 40px);
+    background-color: #abcfe7;
 }
