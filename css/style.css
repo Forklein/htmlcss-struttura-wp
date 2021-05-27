@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header{
+    margin: 20px 0;
+    height: 100px;
+    background-color: #e579e6;
+}
+
+.first-box{
+    height: 300px;
+    background-color: #e1d67a;
+    margin-bottom: 20px;
+}
+
+.second-box{
+    height: 75px;
+    background-color: #abcfe7;
+}
+
+.third-box{
+    height: 300px;
+    background-color: #0088ff;
+    margin-bottom: 10px;
+}
+
+.footer{
+    height: 50px;
+    background-color: #8801fe;
+}
