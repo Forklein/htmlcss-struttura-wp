@@ -27,7 +27,7 @@
 }
 
 .third-box{
-    height: 300px;
+    height: 400px;
     background-color: #0088ff;
     margin-bottom: 10px;
 }
@@ -41,6 +41,7 @@
 .footer{
     height: 50px;
     background-color: #8801fe;
+    margin-bottom: 10px;
 }
 
 .float{
@@ -55,9 +56,10 @@
 }
 
 #box-2{
-    width: 50%;
+    width: calc(50% - 40px);
     height: calc(100% - 40px);
     background-color: #abcfe7;
+    margin: 20px 20px;
 }
 
 #box-3{
